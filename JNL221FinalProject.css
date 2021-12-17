@@ -1,0 +1,95 @@
+#assign_header {
+	background-color: white;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-bottom: 18px;
+}
+
+#assign_header h4 {
+	margin-bottom: 0px;
+}
+
+.caption {
+	font-size: 14px;
+	color: gray;
+	margin-top: 8px;
+}
+
+.photo_caption {
+	font-family: calibri, sans-serif;
+	color: gray;
+	font-size: 10.5px;
+	font-style: italic;
+}
+
+h2 {
+	color: #fa8c00;
+	text-decoration: underline;
+}
+
+.photo1 {
+	max-width: 100%
+}
+
+.photo2 {
+	max-width: 100%
+}
+
+.photo3 {
+    max-width: 100%
+}
+
+.photo4 {
+    max-width: 100%
+}
+
+.photo5 {
+    max-width: 100%
+}
+
+.photo6 {
+    max-width: 100%
+}
+
+.photo7 {
+    max-width: 100%
+}
+
+.graphs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.link{
+	color: #fa8c00;
+}
+
+.link:hover {
+	color: gray;
+	text-decoration: underline; text-decoration-color: #00efff;
+}
+
+.graph {
+	width: 45%;
+	max-width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+    photo3 {
+        max-width: 30%;
+        margin-right: 10%;
+    }
+    
+    photo4 {
+        max-width: 30%
+    }
+    graphs {
+        justify-content: flex-start;
+    }
+}
+/*Feel free to add to this file, but leave the
+stuff above alone.*/
